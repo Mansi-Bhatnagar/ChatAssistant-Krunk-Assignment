@@ -1,0 +1,97 @@
+.outgoing {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-right: 15px;
+  gap: 5px;
+}
+.incoming {
+  margin-left: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+}
+.message {
+  border-radius: 15px;
+  padding: 10px 15px;
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+.outgoing .message {
+  background: #dcf7c5;
+  max-width: 213px;
+}
+.incoming .message {
+  background: linear-gradient(100.24deg, #e6eeff 13.91%, #ffffff 116.73%);
+  max-width: 230px;
+}
+.time {
+  font-family: "Poppins";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  padding: 0 10px;
+}
+.message p {
+  margin: 0;
+}
+.info {
+  width: 200px;
+  height: 50px;
+  padding: 10px 15px 10px 15px;
+  gap: 11px;
+  border-radius: 10px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.info img {
+  width: 70px;
+  height: 50px;
+  border-radius: 5px;
+}
+.detailContainer {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.detailContainer div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.detailContainer h4 {
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.detailContainer img {
+  width: 14.41px;
+  height: 15px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.detailContainer h5 {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #949494;
+  margin: 0;
+}
+
+.detailContainer .arrow {
+  width: 6px;
+  height: 12px;
+  margin: 0;
+}
