@@ -1,7 +1,7 @@
 # Screenshots
 
-![ss1](src/Assets/img1.png)
-![ss2](src/Assets//img2.png)
+![ss1](src/Assets/ss1.png)
+![ss2](src/Assets/ss2.png)
 
 # Getting Started with Create React App
 
